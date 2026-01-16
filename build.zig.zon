@@ -1,0 +1,22 @@
+.{
+    .name = .tic_tac_toe,
+
+    .version = "0.0.0",
+
+    .fingerprint = 0xfb50fbb1536eefcd,
+
+    .minimum_zig_version = "0.15.2",
+
+    .dependencies = .{
+        .keyboard_input = .{
+            .url = "git+https://github.com/ironloom/keyboard-input#7c4969c051d7dc61e211c61bcdf8d5f17e3c800e",
+            .hash = "keyboard_input-0.0.0-OlxrFT1PAABcaP5lMVzs4t8zbGDL3Db8tE7FHcY_b4h7",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
